@@ -13,7 +13,7 @@ namespace Cebolinha
             frase = Console.ReadLine();
             Console.Write("\n");
 
-            Console.WriteLine($"{frase.Replace("r", "l").Replace("R", "L")}");
+            Console.WriteLine($"{frase.Replace("rr","l").Replace("rR","l").Replace("RR","L").Replace("Rr","L").Replace("r","l").Replace("R","L")}");
             //<---Fim(Digite)--->//
 
             //<---Inicio(Sair)--->//
